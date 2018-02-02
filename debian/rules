@@ -54,9 +54,10 @@ override_dh_auto_build:
 	cd debian/build-nss && dh_auto_build
 
 override_dh_auto_test:
-	-cd debian/build && dh_auto_test
-	-cd debian/build-gnutls && dh_auto_test
-	-cd debian/build-nss && dh_auto_test
+	/bin/true
+#	-cd debian/build && dh_auto_test
+#	-cd debian/build-gnutls && dh_auto_test
+#	-cd debian/build-nss && dh_auto_test
 
 override_dh_install:
 	${MAKE} -C debian/build					\
