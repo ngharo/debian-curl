@@ -9,8 +9,6 @@ deploy:
   provider: releases
   api_key:
     secure: prmf1U6Rr77gh8BxUG41bASDnneWYTQtpkHCoPSirnN+Yc7/pgLbH75AgjBVI5e+0qOaimEYEBCnZwp04gy50zg56mAMwa/3p7LNUKjdYhIweh6ah5PY9WI0EJpb2S6zPfi4WyKd0okqmhg74KUyTkaPe8QVoikfq9NyQHHpsc+AGVCeaiywn0qCv0aik+k4SIjMvVv3KWoj23NnNMBCX8OuI4HAlg7zf9r3jTiP/7OuaLDHX0ooKNF6azhn71AI1Z4vcrlwz0KcoLko/U+USZHNS2kZQ4nDlO/+di81YJQvUXOawjdutpEp3O508QXffnE+kD6DLECAsQmTP1YnAwzCWN6zWPuDHWUjqnX/BvQ5GwbN6v4dCsV5TXRbI8zsBTDOgB6iQ/FlnqhefQTNexSKVAml9qEIIfpJs0XAcdbvrsQl4qX4wPZR20yu+r3gHFZxLlBngSX2JjhGcDfNJPsM7iG0GC1+DVYRFaKm5cAAyFavl3DP22qBIsVaOvfuhNZm5bDTNTVFv06MM6oLSryOrHU3j2vYB6FEsvKtdZCus2DNpairdCOFmPtZRhtzdGW+2omK6OPlKlxeZ+CZ7Gb4FMtzjdTuO62Hl1M7GZgHuUMDivc1j/dTWmDndQbWmxhGPNowX9oD0EwcvHhEgSrZ/VJVEAkEVJHaKitKuDk=
-  file_glob: true
-  file: /tmp/artifacts/*.deb
   skip_cleanup: true
   on:
     repo: ngharo/debian-curl
